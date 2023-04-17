@@ -1,0 +1,75 @@
+﻿Build started 3/7/2019 2:25:14 PM.
+     1>Project "E:\crypto implementation\Final Material\PE\PE\PE\PE.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\MIRACL-master\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\big.cpp ..\bn_pair.cpp ..\ecn.cpp ..\ecn2.cpp ..\zzn.cpp ..\zzn12a.cpp ..\zzn2.cpp ..\zzn4.cpp PE.cpp stdafx.cpp
+         stdafx.cpp
+         PE.cpp
+         zzn4.cpp
+         zzn2.cpp
+         zzn12a.cpp
+         zzn.cpp
+         ecn2.cpp
+         ecn.cpp
+         bn_pair.cpp
+     1>e:\crypto implementation\final material\pe\pe\bn_pair.cpp(157): warning C4101: 'j' : unreferenced local variable
+     1>e:\crypto implementation\final material\pe\pe\bn_pair.cpp(202): warning C4101: 'i' : unreferenced local variable
+     1>e:\crypto implementation\final material\pe\pe\bn_pair.cpp(250): warning C4101: 'j' : unreferenced local variable
+     1>e:\crypto implementation\final material\pe\pe\bn_pair.cpp(623): warning C4101: 'nbw' : unreferenced local variable
+     1>e:\crypto implementation\final material\pe\pe\bn_pair.cpp(623): warning C4101: 'nzs' : unreferenced local variable
+     1>e:\crypto implementation\final material\pe\pe\bn_pair.cpp(1088): warning C4101: 'i' : unreferenced local variable
+     1>e:\crypto implementation\final material\pe\pe\bn_pair.cpp(1106): warning C4101: 'i' : unreferenced local variable
+         big.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\crypto implementation\Final Material\PE\PE\Debug\PE.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\crypto implementation\Final Material\PE\PE\Debug\PE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\crypto implementation\Final Material\PE\PE\Debug\PE.lib" /MACHINE:X86 Debug\big.obj
+         Debug\bn_pair.obj
+         Debug\ecn.obj
+         Debug\ecn2.obj
+         Debug\zzn.obj
+         Debug\zzn12a.obj
+         Debug\zzn2.obj
+         Debug\zzn4.obj
+         Debug\PE.obj
+         Debug\stdafx.obj
+         ..\miracl.lib
+     1>miracl.lib(mralloc.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mralloc.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrarth0.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrarth0.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrarth1.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrarth1.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrarth2.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrarth2.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrarth3.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrarth3.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrbits.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrbits.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrbuild.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrbuild.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrcore.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrcore.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrcurve.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrcurve.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrec2m.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrec2m.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrecn2.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrecn2.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrfast.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrfast.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrflash.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrflash.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrgcd.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrgcd.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrgf2m.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrgf2m.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrio1.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrio1.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrio2.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrio2.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrjack.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrjack.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrlucas.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrlucas.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrmonty.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrmonty.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrmuldv.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrmuldv.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrpower.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrpower.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrprime.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrprime.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrrand.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrrand.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrround.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrround.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrscrt.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrscrt.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrshs.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrshs.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrshs256.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrshs256.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrsmall.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrsmall.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrsroot.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrsroot.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrstrong.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrstrong.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrxgcd.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrxgcd.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrzzn2.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrzzn2.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrzzn2b.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrzzn2b.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+     1>miracl.lib(mrzzn4.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'miracl.lib(mrzzn4.obj)' or at 'E:\crypto implementation\Final Material\PE\PE\Debug\vc110.pdb'; linking object as if no debug info
+         PE.vcxproj -> E:\crypto implementation\Final Material\PE\PE\Debug\PE.exe
+     1>Done Building Project "E:\crypto implementation\Final Material\PE\PE\PE\PE.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.22
